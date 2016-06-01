@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+	<title>Planet'RSE-Toulouse</title>
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/fonts-social/socialicious.css">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/cssgram.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+
+<nav class="light-green menu navbar-fixed" role="navigation">
+  <div class="nav-wrapper container">
+    <a id="logo-container" href="#" class="brand-logo"><img class="logo-img" src="images/logo-planetrse.png"></a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="#about" class="js-scrollTo title-menu">A Propos</a></li>
+      <li><a href="#genese" class="js-scrollTo title-menu">Génèse</a></li>
+      <li><a href="#why" class="js-scrollTo title-menu">La RSE</a></li>
+      <li><a href="#eval" class="js-scrollTo title-menu">Evaluation</a></li>
+      <li><a href="#contact" class="js-scrollTo title-menu">Contact</a></li>
+      <!--<a href="#modal1" id="trigger-overlay" class="modal-trigger waves-effect waves-light btn blue-grey lighten-5 light-green-text">S'inscrire</a>
+      <a href="#connection" id="trigger-overlay" class="modal-connection waves-effect waves-light btn blue-grey lighten-5 light-green-text">Se connecter</a>-->
+    </ul>
+
+    <ul id="nav-mobile" class="side-nav">
+      <li><a href="#about" class="js-scrollTo title-menu">A Propos</a></li>
+      <li><a href="#genese" class="js-scrollTo title-menu">Génèse</a></li>
+      <li><a href="#why" class="js-scrollTo title-menu">La RSE</a></li>
+      <li><a href="#eval" class="js-scrollTo title-menu">Evaluation</a></li>
+      <li><a href="#contact" class="js-scrollTo title-menu">Contact</a></li>
+      <!--<a href="#modal1" id="trigger-overlay" class="modal-trigger waves-effect waves-light btn blue-grey lighten-5 light-green-text">S'inscrire</a>
+      <a href="#connection" id="trigger-overlay" class="modal-connection waves-effect waves-light btn blue-grey lighten-5 light-green-text">Se connecter</a>-->
+      <h5 class="white-text">Nos Réseaux</h5>
+      <a class="white-text social-btn" href="#!"><i class="icon-2x icon-facebook-sign"></i></a>
+      <a class="white-text social-btn" href="#!"><i class="icon-2x icon-googleplus-sign"></i></a>
+      <a class="white-text social-btn" href="#!"><i class="icon-2x icon-twitter-sign"></i></a>
+      <a class="white-text social-btn" href="#!"><i class="icon-2x icon-linkedin-sign"></i></a>
+    </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+  </div>
+</nav>
+
+<div id="index-banner" class="parallax-container img-hero overlay">
+  <div class="section no-pad-bot">
+    <div class="container text-hero">
+      <br><br>
+      <h1 class="header center white-text text-lighten-2">Bienvenue,</h1>
+      <div class="row center">
+        <h5 class="header col s12 title-home">Sur le site de Planet’RSE Toulouse, Plateforme de Notation et d’Evaluation Territoriale de la RSE.</h5>
+      </div>
+      <div class="row center">
+        <a href="#about" id="download-button" class="btn-large waves-effect waves-light light-green js-scrollTo">En Savoir Plus ...</a>
+      </div>
+      <div class="row center"><a href="#about" class="js-scrollTo"><i class="medium material-icons icon-home">play_for_work</i></a></div>
+    </div>
+  </div>
+  <div class="parallax"><img src="images/toulouse_capitole.jpg" alt="Unsplashed background img 1"></div>
+</div>
+
+<!-- Modal Inscrire -->
+<div id="modal1" class="modal modal-fixed-footer">
+  <div class="modal-content">
+    <div class="col s12 center">
+      <h3 class="title-modal">Inscription</h3>
+    </div>
+    <div class="row form-inscription">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="last_name" type="text" class="validate">
+            <label for="last_name">Nom de l'Organisme</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="email" type="email" class="validate">
+            <label for="email">Email</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="email" type="email" class="validate">
+            <label for="email">Sujet</label>
+          </div>
+        </div>
+        <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Message</label>
+          </div>
+        </div>
+          <div class="row center">
+            <button class="btn waves-effect waves-light btn-submit" type="submit" name="action">Envoyer
+              <i class="material-icons right">send</i>
+            </button>
+          </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Connection -->
+<div id="connection" class="modal">
+  <div class="modal-content">
+    <form>
+      <h3 class="title-modal center">Inscription</h3>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="email" type="email" class="validate">
+            <label for="email">Email</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="password" type="text" class="validate">
+            <label for="password">Votre Mot de Passe</label>
+          </div>
+        </div>
+        <div class="row center">
+        <button class="btn waves-effect waves-light btn-submit" type="submit" name="action">Envoyer
+          <i class="material-icons right">send</i>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+<section id="about">
+  <div class="container">
+    <div class="section">
+      <div class="row menu-scroll">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h2>A Propos</h4>
+          <p class="left-align light text-adjust">L’association Planet’RSE a pour vocation de promouvoir la Responsabilité Sociétale des Entreprises (RSE) en développant un système fiable, simple et pratique d’évaluation / notation de la RSE.
+  				<br>
+  				Ce système d’évaluation / notation peut être aujourd’hui très concrètement mis à profit par les TPE, PME et nombre d’acteurs de leur environnement local (collectivités, acheteurs privés ou publics, banquiers, assureurs,…).
+  				<br>
+  				Peuvent être membres de l’association Planet’RSE Toulouse (montant de l’adhésion en 2016 : 50€) : </p>
+  				<p class="left-align light text-adjust">
+  				<li class="left-align light text-li-propos">les entreprises impliquées sur notre territoire, souhaitant initier ou mieux valoriser leur démarche RSE au travers du système d’évaluation / notation de Planet’RSE.</li>
+  				<br>
+  				<li class="left-align light text-li-propos">les représentants de toutes structures s’intéressant à l’évaluation de l’impact économique, social, sociétal et environnemental des entreprises sur leur territoire.</li></p>
+  				<p class="left-align light text-adjust">Très prochainement, sur ce site, toutes les rubriques pour un partage dynamique autour des avantages du système d’évaluation / notation RSE de Planet’RSE, ses ambitions, nos partenaires en local.</p>
+        </div>
+      </div> 
+     </div>
+  </div>
+</section>
+
+<div class="parallax-container valign-wrapper overlay">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <div class="row center">
+        <h5 class="header col s12 light">Planet’RSE Toulouse, Plateforme de Notation et d’Evaluation Territoriale de la RSE.</h5>
+      </div>
+    </div>
+  </div>
+    <div class="parallax"><img src="images/toulouse_nuit.jpg" alt="Unsplashed background img 2"></div>
+</div>
+
+<section id="genese">
+  <div class="container">
+    <div class="section"> 
+      <div class="row menu-scroll">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h2>Genèse du projet Planet’RSE</h4>
+          <p class="left-align light text-adjust">Appuyée depuis son origine par le Centre des Jeunes Dirigeants (CJD), Planet’RSE est issue de 5 années de recherche et expérimentations concernant les critères objectifs de mesure de l’engagement RSE des entreprises.
+          <br><br>
+          Ce projet est né en 2010 de la rencontre d’un acteur public, Nantes Métropole, et d’acteurs privés représentés par le CJD. Le cercle de participants s’est élargi en 2011 avec l’arrivée d’un acteur académique, Audencia Nantes Ecole de Management. Le travail mené par ce consortium a permis d’établir un objectif commun, celui de transformer le caractère largement « théorique » de la RSE en un outil concret et utilisable par les entreprises, TPE, PME, et les acheteurs publics.
+          <br><br>
+          A partir de 2013, des acteurs institutionnels, académiques, des syndicats professionnels ainsi que des clubs d’entreprises tels que le MEDEF, la CGPME, se sont joints à cette initiative collective et ont participé à l’élaboration de Planet’RSE dont les statuts ont été déposés le 4 février 2014.
+          <br><br>
+          Depuis janvier 2016, sous l’impulsion et avec l’appui du Centre des Jeunes Dirigeants (CJD), Planet’RSE essaime dans différentes régions au travers d’antennes constituées d’associations locales comme Planet’RSE Toulouse pour notre région.</p>
+          <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/rRc48Dc3V0w" frameborder="0" allowfullscreen></iframe>-->
+          <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rRc48Dc3V0w" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+</section>
+
+<div class="parallax-container valign-wrapper overlay">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <div class="row center">
+        <h5 class="header col s12 light">Planet’RSE Toulouse, Plateforme de Notation et d’Evaluation Territoriale de la RSE.</h5>
+      </div>
+    </div>
+  </div>
+  <div class="parallax"><img src="images/toulouse_artifice.jpg" alt="Unsplashed background img 3"></div>
+</div>
+
+<section id="why">
+  <div class="container">
+    <div class="section">
+      <div class="row menu-scroll">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h2>Pourquoi la RSE ?</h4>
+          <p class="left-align light text-adjust">Acheteurs publics et privés, banquiers et autres financeurs de l’économie, assureurs, collectivités territoriales, consommateurs « responsables », de plus en plus nombreux sont aujourd’hui les acteurs enclins à considérer positivement les entreprises engagées dans une démarche de RSE sincère, objective et vérifiable.
+          <br><br>
+          Dans le même temps, quand elle devient stratégique, au cœur de l’entreprise, la RSE a pu démontrer son impact positif y compris sur le plan de la performance économique et financière. Les études auxquelles ont pu participer Planet’RSE et ses partenaires – dont une importante étude pour la Banque de France - confirment que la RSE, dans certaines conditions, pouvait générer un « Retour sur Investissement » (ROI).
+          <br><br>
+          Cette notion de «Retour sur Investissement », sans constituer l’alpha et l’oméga de la RSE, n’est pas neutre pour une entreprise. Planet’RSE a clairement pour vocation de favoriser la concrétisation de ce « ROI » de la RSE et en faire un atout pour un plus large développement de la RSE, particulièrement au niveau des TPE et PME pour qui la RSE doit rester une démarche 100% volontaire.</p>
+        </div>
+      </div> 
+    </div>
+  </div>
+</section>
+
+<div class="parallax-container valign-wrapper overlay">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <!--<div class="row center">
+        <h1>Les Documents</h1>
+      </div>-->
+      <div class="row center">
+        <h5 class="header col s12 light">Planet’RSE Toulouse, Plateforme de Notation et d’Evaluation Territoriale de la RSE.</h5>
+        <!--<a href="pages/doc.html" id="download-button" class="btn-large waves-effect waves-light light-green">En Savoir Plus ...</a>-->
+      </div>
+    </div>
+  </div>
+  <div class="parallax"><img src="images/toulouse_nuit.jpg" alt="Unsplashed background img 3"></div>
+</div>
+
+<section id="eval">
+  <div class="container">
+    <div class="section"> 
+      <div class="row menu-scroll">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h2>Le système d’évaluation de Planet’RSE</h4>
+          <p class="left-align light text-adjust">La conception du système d’évaluation de Planet’RSE s’est appuyée sur des allers-retours entre l’analyse des différents référentiels existants sur le sujet (Global Compact, SA 8000, Nouvelles Régulations Economiques - Loi NRE, Global Reporting Initiative - GRI, Bilan Social, ISO 26000, label LUCIE, VIGEO…) et des phases d’expérimentations impliquant TPE, PME et leurs parties prenantes (salariés, acheteurs publics ou privés, agences bancaires,…).
+          <br><br>
+          Une grille de 51 critères « S.M.A.R.T. » (Simples, Mesurables, Ambitieux, Réalistes, Temporels) a été élaborée. Un comité de « critérisation » mène un travail de veille sur les pratiques existantes en matière de RSE et pourra faire évoluer les critères en fonctions des évolutions à l’œuvre au niveau comptable, juridique comme dans la société.</p>
+          <br><br>
+          <div class="col s12 center">
+            <img src="images/graphique.jpg" class="img-eval materialboxed" data-caption="Graphique" width="100%">
+          </div>
+          <br>
+          <br>
+          <p class="left-align light text-adjust">L’entreprise membre, pour bénéficier de l’évaluation Planet’RSE, constitue un dossier à partir de la grille de critères (outil fourni par Planet’RSE) puis se prête à un audit réalisé en entreprise – généralement sur une ½ journée - par 3 membres de l’association formés à l’exercice, dont 2 dirigeants d’entreprise. Le coût de participation aux frais d’évaluation et d’audit de Planet’RSE est limité pour l’entreprise à un montant forfaitaire de 300€.
+          <br><br>
+          La notation associée à l’évaluation, sous le contrôle du comité d’engagement de Planet’RSE, reste une information confidentielle dont l’entreprise conserve maîtrise de l’utilisation comme de la diffusion.</p>
+        </div>
+      </div> 
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="parallax-container valign-wrapper overlay form-contact">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center menu-scroll">            
+          <h2 class="contact-title">Nous Contacter</h2>
+        </div>
+        <div class="row menu-scroll">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Nom de l'Organisme</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate">
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate">
+                <label for="email">Sujet</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate">
+                <label for="email">Message</label>
+              </div>
+            </div>
+            <div class="row center">
+              <button class="btn waves-effect waves-light btn-submit" type="submit" name="action">Envoyer
+              <i class="material-icons right">send</i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="parallax"><img src="images/toulouse_sernin.jpg" alt="Unsplashed background img 3"></div>
+    </div>
+  </div>
+</section>
+
+<footer class="page-footer light-green">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h3 class="white-text title-menu-asso">Planet'RSE - Toulouse</h5>
+        <p class="grey-text text-lighten-4 title-menu-asso">Association à but non lucratif - Loi 1901</p>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text title-menu-asso">Nos Réseaux</h5>
+        <a class="white-text social-btn" href="#!"><i class="icon-2x icon-facebook-sign"></i></a>
+        <a class="white-text social-btn" href="#!"><i class="icon-2x icon-googleplus-sign"></i></a>
+        <a class="white-text social-btn" href="#!"><i class="icon-2x icon-twitter-sign"></i></a>
+        <a class="white-text social-btn" href="#!"><i class="icon-2x icon-linkedin-sign"></i></a>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text title-menu-asso">Menu</h5>
+        <ul>
+          <li><a href="#about" class="white-text js-scrollTo title-menu-footer">A Propos</a></li>
+          <li><a href="#genese" class="white-text js-scrollTo title-menu-footer">Génèse</a></li>
+          <li><a href="#why" class="white-text js-scrollTo title-menu-footer">La RSE</a></li>
+          <li><a href="#eval" class="white-text js-scrollTo title-menu-footer">Evaluation</a></li>
+          <li><a href="#contact" class="white-text js-scrollTo title-menu-footer">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m8 title-menu-footer">
+          &copy; Copyright 2016 - Plant'RSE Toulouse&nbsp;/&nbsp;Design by <a class="white-text text-lighten-2 title-menu-footer" href="http://jeromemouly.com">Jérôme Mouly</a>
+        </div>
+        <div class="col s12 m4">
+          <a class="white-text text-lighten-2 title-menu-footer" href="pages/mentions.html">Mentions Légales / Crédits</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.js"></script>
+  <script src="js/script.js"></script>
+
+     <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+  <script type="text/javascript">
+    window.cookieconsent_options = {"message":"Ce site utilise des cookies pour vous assurer d'obtenir la meilleure expérience sur notre site.","dismiss":"Accepter !","learnMore":"Plus d'information","link":"https://www.cnil.fr/fr/cookies-traceurs-que-dit-la-loi","theme":"dark-bottom"};
+  </script>
+
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+
+  <!-- End Cookie Consent plugin -->
+
+    <script type="text/javascript">
+  	WebFontConfig = {
+    google: { families: [ 'Montserrat:400,700:latin' | 'Candal::latin' ] }
+  	};
+  	(function() {
+    var wf = document.createElement('script');
+    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  	})(); </script>
+
+</body>
+</html>

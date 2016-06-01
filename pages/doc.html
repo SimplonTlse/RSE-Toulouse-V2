@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+	<title>Planet'RSE-Toulouse</title>
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="/css/fonts-social/socialicious.css">
+  <link href="/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/css/cssgram.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+
+<nav class="light-green menu navbar-fixed" role="navigation">
+  <div class="nav-wrapper container">
+    <a id="logo-container" href="#" class="brand-logo"><img class="logo-img" src="/images/logo-planetrse.png"></a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="/#about" class="js-scrollTo title-menu">A Propos</a></li>
+      <li><a href="#genese" class="js-scrollTo title-menu">Génèse</a></li>
+      <li><a href="#why" class="js-scrollTo title-menu">La RSE</a></li>
+      <li><a href="#eval" class="js-scrollTo title-menu">Evaluation</a></li>
+      <li><a href="#contact" class="js-scrollTo title-menu">Contact</a></li>
+      <!--<a href="#modal1" id="trigger-overlay" class="modal-trigger waves-effect waves-light btn blue-grey lighten-5 light-green-text">S'inscrire</a>
+      <a href="#connection" id="trigger-overlay" class="modal-connection waves-effect waves-light btn blue-grey lighten-5 light-green-text">Se connecter</a>-->
+    </ul>
+    <ul id="nav-mobile" class="side-nav">
+      <li><a href="#about" class="js-scrollTo title-menu">A Propos</a></li>
+      <li><a href="#genese" class="js-scrollTo title-menu">Génèse</a></li>
+      <li><a href="#why" class="js-scrollTo title-menu">La RSE</a></li>
+      <li><a href="#eval" class="js-scrollTo title-menu">Evaluation</a></li>
+      <li><a href="#contact" class="js-scrollTo title-menu">Contact</a></li>
+      <!--<a href="#modal1" id="trigger-overlay" class="modal-trigger waves-effect waves-light btn blue-grey lighten-5 light-green-text">S'inscrire</a>
+      <a href="#connection" id="trigger-overlay" class="modal-connection waves-effect waves-light btn blue-grey lighten-5 light-green-text">Se connecter</a>-->
+      <h5 class="white-text">Nos Réseaux</h5>
+      <a class="white-text social-btn" href="#!"><i class="icon-2x icon-facebook-sign"></i></a>
+      <a class="white-text social-btn" href="#!"><i class="icon-2x icon-googleplus-sign"></i></a>
+      <a class="white-text social-btn" href="#!"><i class="icon-2x icon-twitter-sign"></i></a>
+      <a class="white-text social-btn" href="#!"><i class="icon-2x icon-linkedin-sign"></i></a>
+    </ul>
+    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+  </div>
+</nav>
+
+<!-- Modal Inscrire -->
+<div id="modal1" class="modal modal-fixed-footer">
+  <div class="modal-content">
+    <div class="col s12 center">
+      <h3 class="title-modal">Inscription</h3>
+    </div>
+    <div class="row form-inscription">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="last_name" type="text" class="validate">
+            <label for="last_name">Nom de l'Organisme</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="email" type="email" class="validate">
+            <label for="email">Email</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="email" type="email" class="validate">
+            <label for="email">Sujet</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="email" type="email" class="validate">
+            <label for="email">Message</label>
+          </div>
+        </div>
+        <div class="row center">
+          <button class="btn waves-effect waves-light btn-submit" type="submit" name="action">Envoyer
+          <i class="material-icons right">send</i>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Connection -->
+  <div id="connection" class="modal">
+    <div class="modal-content">
+    <form>
+      <h3 class="title-modal center">Inscription</h3>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="password" type="text" class="validate">
+          <label for="password">Votre Mot de Passe</label>
+        </div>
+      </div>
+      <div class="row center">
+        <button class="btn waves-effect waves-light btn-submit" type="submit" name="action">Envoyer
+        <i class="material-icons right">send</i>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row center menu-scroll">
+    <h2>Les Documents</h2>
+    <div class="col s12 m4">
+      <div class="icon-block">
+        <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+        <h5 class="center">Easy to work with</h5>
+        <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+        <a href="/ViewerJS/#../path/to/CV.pdf" target="blank"><img class="materialboxed center" width="410" src="/images/graphique.jpg"></a> 
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="icon-block">
+        <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+        <h5 class="center">Easy to work with</h5>
+        <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+        <a href="/web/viewer.html?file=CDC - Planet'RSE.pdf"><img class="materialboxed center" width="410" src="/images/cdc.jpg"></a>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="icon-block">
+        <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+        <h5 class="center">Easy to work with</h5>
+        <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+        <a href="/web/viewer.html?file=CV.pdf" target="blank"><img width="410" type="application/pdf" class="materialboxed" src="/images/CV-JeromeMouly.jpg"/></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row center">
+    <div class="col s12 m4">
+      <div class="icon-block">
+        <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+        <h5 class="center">Easy to work with</h5>
+        <a href="/ViewerJS/CDC.docx" target="blank"><img class="materialboxed center" width="410" src="/images/graphique.jpg"></a>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="icon-block">
+        <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+        <h5 class="center">Easy to work with</h5>
+        <a href="/ViewerJS/CDC.docx" target="blank"><img class="materialboxed center" width="410" src="/images/graphique.jpg"></a>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="icon-block">
+        <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+        <h5 class="center">Easy to work with</h5>
+        <a href="/ViewerJS/CDC.docx" target="blank"><img class="materialboxed center" width="410" src="/images/graphique.jpg"></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="page-footer light-green">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">Planet'RSE - Toulouse</h5>
+        <p class="grey-text text-lighten-4">Association à but non lucratif - Loi 1901</p>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">Settings</h5>
+        <a class="white-text social-btn" href="#!"><i class="icon-2x icon-facebook-sign"></i></a>
+        <a class="white-text social-btn" href="#!"><i class="icon-2x icon-googleplus-sign"></i></a>
+        <a class="white-text social-btn" href="#!"><i class="icon-2x icon-twitter-sign"></i></a>
+        <a class="white-text social-btn" href="#!"><i class="icon-2x icon-linkedin-sign"></i></a>
+      </div>
+      <div class="col l3 s12">
+        h5 class="white-text">Connect</h5>
+        <ul>
+          <li><a href="#about" class="white-text js-scrollTo title-menu-footer">A Propos</a></li>
+          <li><a href="#genese" class="white-text js-scrollTo title-menu-footer">Génèse</a></li>
+          <li><a href="#why" class="white-text js-scrollTo title-menu-footer">La RSE</a></li>
+          <li><a href="#eval" class="white-text js-scrollTo title-menu-footer">Evaluation</a></li>
+          <li><a href="#contact" class="white-text js-scrollTo title-menu-footer">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m8">
+          &copy; Copyright 2016 - Plant'RSE Toulouse&nbsp;/&nbsp;Design by <a class="white-text text-lighten-2" href="http://jeromemouly.com">Jérôme Mouly</a>
+        </div>
+        <div class="col s12 m4">
+          <a class="white-text text-lighten-2" href="mentions.html">Mentions Légales / Crédits</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="/js/materialize.js"></script>
+  <script src="/js/script.js"></script>
+
+  <script type="text/javascript">
+  WebFontConfig = {
+  google: { families: [ 'Montserrat:400,700:latin' | 'Candal::latin' ] }
+  };
+  (function() {
+  var wf = document.createElement('script');
+  wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+  wf.type = 'text/javascript';
+  wf.async = 'true';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(wf, s);
+  })(); </script>
+
+</body>
+</html>
