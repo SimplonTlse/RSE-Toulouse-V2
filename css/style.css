@@ -48,6 +48,9 @@ p {
   #index-banner .section {
     top: 0;
   }
+  .footer-copyright {
+    max-height: 100%;
+  }
 }
 
 .icon-block {
@@ -176,4 +179,9 @@ top: 0;
 .logo-img {
   box-shadow: -webkit-box-shadow: 1px 1px 1px 1px #BDBDBD;
   box-shadow: 1px 1px 1px 1px #BDBDBD;
+}
+
+.logo-simplon {
+  width: 50%;
+  height: 50%;
 }
